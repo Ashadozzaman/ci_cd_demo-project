@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         IMAGE_TAG = "$BUILD_NUMBER"
-        DOCKERHUB_USERNAME = "aakkiiff"
-        GIT_REPO = "https://github.com/aakkiiff/ci_cd_demo.git"
-        CLIENT_APP_NAME = "demo_frontend"
+        DOCKERHUB_USERNAME = "ashadozzaman"
+        GIT_REPO = "https://github.com/Ashadozzaman/ci_cd_demo-project.git"
+        CLIENT_APP_NAME = "DEMO_CI_PROJECT"
         CLIENT_APP_IMAGE = "${DOCKERHUB_USERNAME}/${CLIENT_APP_NAME}"
         CONFIG_PROJECT_NAME = "demo_config"
      }
