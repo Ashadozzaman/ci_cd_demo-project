@@ -5,7 +5,7 @@ pipeline {
         IMAGE_TAG = "$BUILD_NUMBER"
         DOCKERHUB_USERNAME = "ashadozzaman"
         GIT_REPO = "https://github.com/Ashadozzaman/ci_cd_demo-project.git"
-        CLIENT_APP_NAME = "DEMO_CI_PROJECT"
+        CLIENT_APP_NAME = "demo_ci_project"
         CLIENT_APP_IMAGE = "${DOCKERHUB_USERNAME}/${CLIENT_APP_NAME}"
         CONFIG_PROJECT_NAME = "demo_config"
      }
